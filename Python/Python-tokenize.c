@@ -11,6 +11,8 @@ typedef struct {
     PyTypeObject *TokenizerIter;
 } tokenize_state;
 
+// This is a comment from Preston
+
 static tokenize_state *
 get_tokenize_state(PyObject *module) {
     return (tokenize_state *)PyModule_GetState(module);
